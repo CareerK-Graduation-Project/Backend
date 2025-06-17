@@ -9,7 +9,9 @@
 
 ### Login & Password
 - `POST /api/auth/login` – Login  
-- `POST /api/password/reset` – Reset password  
+- `POST /api/password/forgot-password` – request password reset  
+- `POST /api/password/verify-otp` – Verify OTP before password reset 
+- `POST /api/password/reset-password` – Reset password  
 
 ---
 
