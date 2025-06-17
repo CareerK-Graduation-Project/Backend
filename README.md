@@ -43,7 +43,7 @@
 - `DELETE /api/service-post/:id` – Delete service post **(Auth: Owner)**  
 
 ### Service Applications
-- `POST /api/service-application/` – Apply to service **(Auth: Developer)**  
+- `POST /api/service-application/apply` – Apply to service **(Auth: Developer)**  
 - `GET /api/service-application/post/:service_post_id` – View applicants **(Auth: Customer)**  
 - `GET /api/service-application/:id` – Get application details **(Auth: Involved parties)**  
 - `DELETE /api/service-application/:id` – Delete application **(Auth: Developer)**  
@@ -58,12 +58,12 @@
 ## 🏠 Homepages & Dashboards
 
 ### Developer
-- `GET /api/developer/homepage` – Developer dashboard **(Auth: Developer)**  
+- `GET /api/developer/homepage` – Developer homepage **(Auth: Developer)**  
 
 ### Company
-- `GET /api/company/homepage` – Company dashboard **(Auth: Company)**  
+- `GET /api/company/homepage` – Company homepage **(Auth: Company)**  
 - `GET /api/company/:developerId/cv` – View developer's CV  
 - `GET /api/company/application/:applicationId` – View application details  
 
 ### Customer
-- `GET /api/customer/homepage` – Customer dashboard **(Auth: Customer)**  
+- `GET /api/customer/homepage` – Customer homepage **(Auth: Customer)**  
