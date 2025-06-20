@@ -52,12 +52,12 @@
 
 ---
 
-## 🎯 Recommendations
+## 🎯 Job Recommendations
 - `GET /api/recommendations` – Personalized job/service recommendations **(Auth: Logged-in user)**  
 
 ---
 
-## 🏠 Homepages & Dashboards
+## 🏠 Homepages 
 
 ### Developer
 - `GET /api/developer/homepage` – Developer homepage **(Auth: Developer)**  
@@ -69,3 +69,61 @@
 
 ### Customer
 - `GET /api/customer/homepage` – Customer homepage **(Auth: Customer)**  
+
+---
+
+## 📄 CV Generation (AI)
+
+- `POST /api/cv-generation/start` – Start session (form or chat) (Auth: Developer)
+- `PUT /api/cv-generation/update/:sessionId` – Update data (form or chat mode) (Auth: Developer)
+- `GET /api/cv-generation/session/:sessionId` – Get session data (Auth: Developer)
+- `POST /api/cv-generation/chat/:sessionId` – Chatbot input (Auth: Developer)
+- `POST /api/cv-generation/generate/:sessionId` – Generate CV (Auth: Developer)
+
+---
+
+## 💬 Private Chat
+
+Chat Rooms
+- `POST /api/private-chats/start` – Start a private chat room with another user
+- `POST /api/private-chats/:chatRoomId` – Send a message in a private chat room (text or file)
+- `GET /api/private-chats/:chatRoomId` – Get messages from a specific private chat room
+- `GET /api/private-chats` – Get all private chats for the logged-in user
+- `DELETE /api/private-chats/message/:messageId` – Delete a message
+- `DELETE /api/private-chats/:chatRoomId` – Delete a private chat room
+
+Socket.IO Events
+- `private:send_message` – Send message (text/file/image)
+- `private:receive_message` – Receive message
+
+---
+
+## 🌐 Community Chat (Groups)
+
+Group APIs
+- `GET /api/community/groups` – Get all available community groups (suggested)
+- `GET /api/community/groups/:groupId` – Get specific community group by ID
+- `GET /api/community/my-groups` – Get groups joined by current user
+- `POST /api/community/join/:groupId` – Join a community group
+- `DELETE /api/community/leave/:groupId` – Leave a community group
+- `GET /api/community/:groupId/messages?page=1&limit=20` – Get messages from a group (paginated)
+- `POST /api/community/upload-media` – Upload file/image/audio message to a community (multipart/form-data), use (key: file) in postman)
+- `GET /api/community/groups/by-interest?tag=react` – Discover groups by interest tag
+- `GET /api/community/groups/search?q=keyword` – Fuzzy search for groups by name or tag
+
+Socket.IO Events
+- `community:join` – Join community group room
+- `community:leave` – Leave group room
+- `community:send-message` – Send message (text, image, file, or audio)
+- `community:typing` – Send typing indicator to others
+- `community:receive-message` – Listen for new messages
+
+---
+
+## 🏢 Company Profile
+
+- `GET /api/company/profile` – View company profile
+- `DELETE /api/company/profile/jobs/:jobId` – Delete a specific job post
+
+---
+
