@@ -127,3 +127,19 @@ Socket.IO Events
 
 ---
 
+📌 Bookmarks
+
+- `POST /api/bookmarks/` – Bookmark a job/service post (Auth: Developer)
+- `GET /api/bookmarks/` – Get all bookmarks (Auth: Developer)
+- `GET /api/bookmarks/?postType=job/service` – Get all bookmarks (Auth: Developer) (optional)
+- `GET /api/bookmarks/bookmark/:postId` – GET one bookmark (Auth: Developer)
+
+---
+
+🔔 Notifications
+
+- `GET /api/notifications/` – Get all notifications (Auth: Logged-in user)
+- `PATCH /api/notifications/:id/read` – Mark one notification as read (Auth: Logged-in user)
+- `PATCH /api/notifications/read-all` – Mark all notifications as read (Auth: Logged-in user)
+
+---
