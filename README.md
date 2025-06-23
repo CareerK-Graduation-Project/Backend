@@ -60,7 +60,9 @@
 ## 🏠 Homepages 
 
 ### Developer
-- `GET /api/developer/homepage` – Developer homepage **(Auth: Developer)**  
+- `GET /api/developer/name` – Developer homepage name **(Auth: Developer)**  
+- `GET /api/developer/courses` – Developer homepage courses **(Auth: Developer)**  
+- `GET /api/developer/tracks` – Developer homepage tracks **(Auth: Developer)**  **(For web only)**
 
 ### Company
 - `GET /api/company/homepage` – Company homepage **(Auth: Company)**  
