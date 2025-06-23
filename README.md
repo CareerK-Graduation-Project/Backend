@@ -125,8 +125,20 @@ Socket.IO Events
 - `GET /api/company/profile` – View company profile
 - `GET /api/company/job-posts` – Get job posts
 - `GET /api/company/applicants` – Get applicants
+- `GET /api/company/job-posts-with-applicants` – Get job posts with applicants number
 - `GET /api/company/job-posts-with-applicant-details` – Get job posts with applicant details
 - `DELETE /api/company/jobs/:jobId` – Delete a specific job post
+
+---
+
+## 🏢 Customer Profile
+
+- `GET /api/customer/profile` – View customer profile
+- `GET /api/customer/service-posts` – Get service posts
+- `GET /api/customer/applicants` – Get applicants
+- `GET /api/customer/service-posts-with-applicants` – Get service posts with applicants number
+- `GET /api/customer/service-posts-with-applicant-details` – Get service posts with applicant details
+- `DELETE /api/customer/service-posts/:postId` – Delete a specific service post
 
 ---
 
