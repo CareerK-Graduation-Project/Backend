@@ -123,11 +123,14 @@ Socket.IO Events
 ## 🏢 Company Profile
 
 - `GET /api/company/profile` – View company profile
-- `DELETE /api/company/profile/jobs/:jobId` – Delete a specific job post
+- `GET /api/company/job-posts` – Get job posts
+- `GET /api/company/applicants` – Get applicants
+- `GET /api/company/job-posts-with-applicant-details` – Get job posts with applicant details
+- `DELETE /api/company/jobs/:jobId` – Delete a specific job post
 
 ---
 
-📌 Bookmarks
+## 📌 Bookmarks
 
 - `POST /api/bookmarks/` – Bookmark a job/service post (Auth: Developer)
 - `GET /api/bookmarks/` – Get all bookmarks (Auth: Developer)
@@ -137,7 +140,7 @@ Socket.IO Events
 
 ---
 
-🔔 Notifications
+## 🔔 Notifications
 
 - `GET /api/notifications/` – Get all notifications (Auth: Logged-in user)
 - `PATCH /api/notifications/:id/read` – Mark one notification as read (Auth: Logged-in user)
