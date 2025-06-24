@@ -161,3 +161,40 @@ Socket.IO Events
 - `PATCH /api/notifications/read-all` – Mark all notifications as read (Auth: Logged-in user)
 
 ---
+
+## 📚 Courses & Tracks & Roadmaps
+
+### 📚 Courses Page 
+
+- `GET /api/courses-page/developer-name` – Retrieve developer profile (Auth: Logged-in user)
+- `GET /api/courses-page/search-courses` – Search for courses (Auth: None)
+- `GET /api/courses-page/roadmaps/preview` – Get preview of tracks/roadmaps (Auth: None)
+- `GET /api/courses-page/courses/ongoing` – Get ongoing courses for developer (Auth: Logged-in user)
+- `GET /api/courses-page/courses/related` – Get related courses for developer (Auth: Logged-in user)
+
+---
+
+### 📚 Course Enrollment and Progress 
+
+- `POST /api/course-enrollment-progress/enroll/:courseId` – Enroll in a course (Auth: Logged-in user)
+- `POST /api/course-enrollment-progress/lessons/complete` – Mark a lesson as complete (Auth: Logged-in user)
+- `GET /api/course-enrollment-progress/my-courses/ongoing` – Get enrolled ongoing courses (Auth: Logged-in user)
+- `GET /api/course-enrollment-progress/my-courses/completed` – Get completed courses (Auth: Logged-in user)
+
+---
+
+### 📚 Tracks and Courses
+
+- `GET /api/tracks-courses/tracks` – Retrieve all tracks (Auth: Logged-in user)
+- `GET /api/tracks-courses/tracks/:trackId/courses` – Get courses for a specific track (Auth: Logged-in user)
+
+---
+
+### 📚 Course Details 
+
+- `GET /api/course-details/:courseId/header` – Retrieve course header information (Auth: Logged-in user)
+- `GET /api/course-details/:courseId/overview` – Get course overview (Auth: Logged-in user)
+- `GET /api/course-details/:courseId/contents` – Get course contents (Auth: Logged-in user)
+- `GET /api/course-details/:courseId/reviews` – Get course reviews (Auth: Logged-in user)
+
+---
