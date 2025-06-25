@@ -23,7 +23,6 @@
 - `GET /api/job-post/:id` – Get job post details  
 - `PUT /api/job-post/:id` – Update job post **(Auth: Owner)**  
 - `DELETE /api/job-post/:id` – Delete job post **(Auth: Owner)**  
-- `GET /api/job-post/filter/most-relevant` – Get recommended jobs  
 - `GET /api/job-post/filter/recently-posted` – Get recently posted jobs  
 
 ### Job Applications
@@ -42,7 +41,8 @@
 - `GET /api/service-post/get-service-posts` – Browse service posts *(Public)*  
 - `GET /api/service-post/:id` – Get service post details  
 - `PUT /api/service-post/:id` – Update service post **(Auth: Owner)**  
-- `DELETE /api/service-post/:id` – Delete service post **(Auth: Owner)**  
+- `DELETE /api/service-post/:id` – Delete service post **(Auth: Owner)**
+- `GET /api/service-post/filter/recently-posted` – Get recently posted services 
 
 ### Service Applications
 - `POST /api/service-application/apply` – Apply to service **(Auth: Developer)**  
