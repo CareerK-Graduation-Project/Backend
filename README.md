@@ -204,3 +204,13 @@ Socket.IO Events
 - `GET /api/roadmaps/:roadmapId/progress` – Get roadmap progress (Auth: Logged-in user)
 - `GET /api/roadmaps/:trackId/:level` – Get roadmaps for specific track (Auth: Logged-in user)
 - `POST /api/roadmaps/progress` – mark/unmark steps as done (Auth: Logged-in user)
+
+---
+
+## Cv Download
+
+- ` GET /api/cv/download?type=job_application&id=<job_application_id>` – job application cv-download
+- ` GET /api/cv/download?type=service_application&id=<service_application_id>` – service application cv download
+- ` GET /api/cv/download?type=developer&id=<developer_id>&subtype=uploaded` – developer uploaded cv download
+- ` GET /api/cv/download?type=developer&id=<developer_id>&subtype=generated` – developer generated cv download
+- 
