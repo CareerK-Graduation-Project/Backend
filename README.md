@@ -198,3 +198,9 @@ Socket.IO Events
 - `GET /api/course-details/:courseId/reviews` – Get course reviews (Auth: Logged-in user)
 
 ---
+
+### 🗺️ Roadmaps Steps and Progress
+
+- `GET /api/roadmaps/:roadmapId/progress` – Get roadmap progress (Auth: Logged-in user)
+- `GET /api/roadmaps/:trackId/:level` – Get roadmaps for specific track (Auth: Logged-in user)
+- `POST /api/roadmaps/progress` – mark/unmark steps as done (Auth: Logged-in user)
