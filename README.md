@@ -79,7 +79,7 @@
 - `POST /api/cv-generation/start` – Start session (form or chat) (Auth: Developer)
 - `PUT /api/cv-generation/update/:sessionId` – Update data (form or chat mode) (Auth: Developer)
 - `GET /api/cv-generation/session/:sessionId` – Get session data (Auth: Developer)
-- <--`POST /api/cv-generation/chat/:sessionId` – Chatbot input (Auth: Developer)-->
+   <--`POST /api/cv-generation/chat/:sessionId` – Chatbot input (Auth: Developer)-->
 - `POST /api/cv-generation/generate/:sessionId` – Generate CV (Auth: Developer)
 
 ---
