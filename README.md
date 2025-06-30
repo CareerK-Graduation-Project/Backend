@@ -76,10 +76,9 @@
 
 ## 📄 CV Generation (AI)
 
-- `POST /api/cv-generation/start` – Start session (form or chat) (Auth: Developer)
-- `PUT /api/cv-generation/update/:sessionId` – Update data (form or chat mode) (Auth: Developer)
-- `GET /api/cv-generation/session/:sessionId` – Get session data (Auth: Developer)
-- `POST /api/cv-generation/generate/:sessionId` – Generate CV (Auth: Developer)
+- `POST /api/cv-generation/session` – Start session (form) (Auth: Developer)
+- `PUT /api/cv-generation/:sessionId/data` – Update data (form) (Auth: Developer)
+- `POST /api/cv-generation/:sessionId/generate` – Generate CV (Auth: Developer)
 
 ---
 
@@ -120,6 +119,15 @@ Socket.IO Events
 - `community:receive-message` – Listen for new messages
 
 ---
+
+## Developer Profile
+
+- `GET /api/dveloper/profile` – View developer profile (Auth: Developer)
+- `PUT /api/dveloper/update-profile` – Update/edit developer profile (Auth: Developer)
+- `GET /api/dveloper/my-applications` – Get developer applications (Auth: Developer)
+- `GET /api/dveloper/my-cv` – Get developer cv (Auth: Developer)
+- `PUT /api/dveloper/my-cv` – Update developer cv (Auth: Developer)
+- `DELETE /api/dveloper/my-cv` – Delete developer cv (Auth: Developer)
 
 ## 🏢 Company Profile
 
