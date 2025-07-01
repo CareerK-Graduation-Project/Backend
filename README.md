@@ -19,7 +19,6 @@
 
 ### Job Posts
 - `POST /api/job-post/create` – Create a job post **(Auth: Logged-in user)**  
-- `GET /api/job-post/get-job-posts` – Browse all job posts *(Public)*  
 - `GET /api/job-post/:id` – Get job post details  
 - `PUT /api/job-post/:id` – Update job post **(Auth: Owner)**  
 - `DELETE /api/job-post/:id` – Delete job post **(Auth: Owner)**  
