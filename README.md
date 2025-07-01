@@ -37,7 +37,6 @@
 
 ### Service Posts
 - `POST /api/service-post/create` – Create a service post **(Auth: Customer)**  
-- `GET /api/service-post/get-service-posts` – Browse service posts *(Public)*  
 - `GET /api/service-post/:id` – Get service post details  
 - `PUT /api/service-post/:id` – Update service post **(Auth: Owner)**  
 - `DELETE /api/service-post/:id` – Delete service post **(Auth: Owner)**
