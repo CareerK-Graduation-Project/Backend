@@ -157,7 +157,6 @@ Socket.IO Events
 - `GET /api/bookmarks/` – Get all bookmarks (Auth: Developer)
 - `GET /api/bookmarks/?postType=job/service` – Get all bookmarks (Auth: Developer) (optional)
 - `GET /api/bookmarks/bookmark/:postId` – GET one bookmark (Auth: Developer)
-- `GET /api/bookmarks/unread-count` – Get unread count (for badge UI) (Auth: Developer)
 
 ---
 
