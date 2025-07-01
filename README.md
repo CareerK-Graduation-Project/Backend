@@ -121,7 +121,7 @@ Socket.IO Events
 ## Developer Profile
 
 - `GET /api/dveloper/profile` – View developer profile (Auth: Developer)
-- `PUT /api/dveloper/update-profile` – Update/edit developer profile (Auth: Developer)
+- `PUT /api/dveloper/edit-profile` – Update/edit developer profile (Auth: Developer)
 - `GET /api/dveloper/my-applications` – Get developer applications (Auth: Developer)
 - `GET /api/dveloper/my-cv` – Get developer cv (Auth: Developer)
 - `PUT /api/dveloper/my-cv` – Update developer cv (Auth: Developer)
