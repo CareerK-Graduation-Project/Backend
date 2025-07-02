@@ -27,7 +27,6 @@
 ### Job Applications
 - `POST /api/job-application/apply/:jobId` – Apply to job **(Auth: Developer)**  
 - `GET /api/job-application/:jobId/applications` – View applicants **(Auth: Company)**  
-- `GET /api/job-application/my-applications` – View my applications **(Auth: Developer)**  
 - `DELETE /api/job-application/:application_id` – Withdraw application **(Auth: Owner)**  
 - `PUT /api/job-application/:applicationId/status` – Update application status **(Auth: Company)**  
 
@@ -120,12 +119,12 @@ Socket.IO Events
 
 ## Developer Profile
 
-- `GET /api/dveloper/profile` – View developer profile (Auth: Developer)
-- `PUT /api/dveloper/edit-profile` – Update/edit developer profile (Auth: Developer)
-- `GET /api/dveloper/my-applications` – Get developer applications (Auth: Developer)
-- `GET /api/dveloper/my-cv` – Get developer cv (Auth: Developer)
-- `PUT /api/dveloper/my-cv` – Update developer cv (Auth: Developer)
-- `DELETE /api/dveloper/my-cv` – Delete developer cv (Auth: Developer)
+- `GET /api/developer/profile` – View developer profile (Auth: Developer)
+- `PUT /api/developer/edit-profile` – Update/edit developer profile (Auth: Developer)
+- `GET /api/developer/my-applications` – Get developer applications (Auth: Developer)
+- `GET /api/developer/my-cv` – Get developer cv (Auth: Developer)
+- `PUT /api/developer/my-cv` – Update developer cv (Auth: Developer)
+- `DELETE /api/developer/my-cv` – Delete developer cv (Auth: Developer)
 
 ## 🏢 Company Profile
 
