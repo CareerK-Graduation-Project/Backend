@@ -218,4 +218,9 @@ Socket.IO Events
 - ` GET /api/cv/download?type=service_application&id=<service_application_id>` – service application cv download
 - ` GET /api/cv/download?type=developer&id=<developer_id>&subtype=uploaded` – developer uploaded cv download
 - ` GET /api/cv/download?type=developer&id=<developer_id>&subtype=generated` – developer generated cv download
-- 
+
+---
+
+## Chatbot
+
+- ` POST /api/chatbot/ask` – Talk with chatbot
