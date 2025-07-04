@@ -206,6 +206,13 @@ Socket.IO Events
 
 ---
 
+### 📚 Course Bookmarks
+
+- ` POST /api/course-bookmarks/bookmark` – Bookmark a course (body: { courseId }) (Auth: Logged-in user)
+- ` GET /api/course-bookmarks/bookmarks` – Get all course bookmarked (Auth: Logged-in user)
+- ` GET /api/course-bookmarks/:courseId/is-bookmarked` – Check if course is bookmarked (Auth: Logged-in user)
+- ` DELETE /api/course-bookmarks/bookmark/:courseId` – Delete bookmarked course (Auth: Logged-in user)
+
 ### 🗺️ Roadmaps Steps and Progress
 
 - `GET /api/roadmaps/:roadmapId/progress` – Get roadmap progress (Auth: Logged-in user)
