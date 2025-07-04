@@ -59,7 +59,8 @@
 ### Developer
 - `GET /api/developer/name` – Developer homepage name **(Auth: Developer)**  
 - `GET /api/developer/courses` – Developer homepage courses **(Auth: Developer)**  
-- `GET /api/developer/tracks` – Developer homepage tracks **(Auth: Developer)**  **(For web only)**
+- `GET /api/developer/tracks` – Developer homepage tracks **(Auth: Developer)** 
+- `GET /api/developer/:trackId/courses` – Developer homepage tracks based on tags **(Auth: Developer)**  **(For mobile only)**
 
 ### Company
 - `GET /api/company/homepage` – Company homepage **(Auth: Company)**  
