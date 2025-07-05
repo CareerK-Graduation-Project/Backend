@@ -46,6 +46,7 @@
 - `GET /api/service-application/post/:service_post_id` – View applicants **(Auth: Customer)**  
 - `GET /api/service-application/:id` – Get application details **(Auth: Involved parties)**  
 - `DELETE /api/service-application/:id` – Delete application **(Auth: Developer)**  
+- `PATCH /api/service-application/:id/status` – Update application status **(Auth: Developer)**  
 
 ---
 
