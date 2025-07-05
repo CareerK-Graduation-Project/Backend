@@ -193,8 +193,8 @@ Socket.IO Events
 
 ### 📚 Tracks and Courses
 
-- `GET /api/tracks-courses/tracks` – Retrieve all tracks (Auth: Logged-in user)
-- `GET /api/tracks-courses/tracks/:trackId/courses` – Get courses for a specific track (Auth: Logged-in user)
+- `GET /api/tracks-page/tracks` – Retrieve all tracks (Auth: Logged-in user)
+- `GET /api/tracks-page/tracks/:trackId/courses` – Get courses for a specific track (Auth: Logged-in user)
 
 ---
 
