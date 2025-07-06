@@ -79,6 +79,7 @@
 - `POST /api/cv-generation/session` – Start session (form) (Auth: Developer)
 - `PUT /api/cv-generation/:sessionId/data` – Update data (form) (Auth: Developer)
 - `POST /api/cv-generation/:sessionId/generate` – Generate CV (Auth: Developer)
+- `POST /api/cv-generation/:sessionId/regenerate` – ReGenerate CV after edit anything (Auth: Developer)
 
 ---
 
