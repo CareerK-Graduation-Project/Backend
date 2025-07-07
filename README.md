@@ -179,6 +179,7 @@ Socket.IO Events
 - `GET /api/courses-page/search-courses` – Search for courses (Auth: None)
 - `GET /api/courses-page/roadmaps/preview` – Get preview of tracks/roadmaps (Auth: None)
 - `GET /api/courses-page/courses/ongoing` – Get ongoing courses for developer (Auth: Logged-in user)
+- `GET /api/courses-page/courses/ongoing?status=completed` – Get completed courses for developer (Auth: Logged-in user)
 - `GET /api/courses-page/courses/related` – Get related courses for developer (Auth: Logged-in user)
 
 ---
@@ -187,8 +188,6 @@ Socket.IO Events
 
 - `POST /api/course-enrollment/enroll/:courseId` – Enroll in a course (Auth: Logged-in user)
 - `POST /api/course-enrollment/lessons/complete` – Mark a lesson as complete (Auth: Logged-in user)
-- `GET /api/course-enrollment/my-courses/ongoing` – Get enrolled ongoing courses (Auth: Logged-in user)
-- `GET /api/course-enrollment/my-courses/completed` – Get completed courses (Auth: Logged-in user)
 
 ---
 
