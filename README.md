@@ -185,10 +185,10 @@ Socket.IO Events
 
 ### 📚 Course Enrollment and Progress 
 
-- `POST /api/course-enrollment-progress/enroll/:courseId` – Enroll in a course (Auth: Logged-in user)
-- `POST /api/course-enrollment-progress/lessons/complete` – Mark a lesson as complete (Auth: Logged-in user)
-- `GET /api/course-enrollment-progress/my-courses/ongoing` – Get enrolled ongoing courses (Auth: Logged-in user)
-- `GET /api/course-enrollment-progress/my-courses/completed` – Get completed courses (Auth: Logged-in user)
+- `POST /api/course-enrollment/enroll/:courseId` – Enroll in a course (Auth: Logged-in user)
+- `POST /api/course-enrollment/lessons/complete` – Mark a lesson as complete (Auth: Logged-in user)
+- `GET /api/course-enrollment/my-courses/ongoing` – Get enrolled ongoing courses (Auth: Logged-in user)
+- `GET /api/course-enrollment/my-courses/completed` – Get completed courses (Auth: Logged-in user)
 
 ---
 
