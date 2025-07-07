@@ -137,7 +137,7 @@ Socket.IO Events
 - `GET /api/company/applicants` – Get applicants
 - `GET /api/company/job-posts-with-applicants` – Get job posts with applicants number
 - `GET /api/company/job-posts-with-applicant-details` – Get job posts with applicant details
-- `DELETE /api/company/jobs/:jobId` – Delete a specific job post
+- `DELETE /api/company/job-posts/:jobId` – Delete a specific job post
 - `PUT /api/company/edit-profile` – edit a company profile
 
 ---
