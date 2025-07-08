@@ -124,7 +124,7 @@ Socket.IO Events
 ## Developer Profile
 
 - `GET /api/developer/profile` – View developer profile (Auth: Developer)
-- `PUT /api/developer/edit-profile` – Update/edit developer profile (Auth: Developer)
+- `PATCH /api/developer/edit-profile` – Update/edit developer profile (Auth: Developer)
 - `GET /api/developer/my-applications` – Get developer applications (Auth: Developer)
 - `GET /api/developer/my-cv` – Get developer cv (Auth: Developer)
 - `PUT /api/developer/my-cv` – Update developer cv (Auth: Developer)
@@ -138,7 +138,7 @@ Socket.IO Events
 - `GET /api/company/job-posts-with-applicants` – Get job posts with applicants number
 - `GET /api/company/job-posts-with-applicant-details` – Get job posts with applicant details
 - `DELETE /api/company/job-posts/:jobId` – Delete a specific job post
-- `PUT /api/company/edit-profile` – edit a company profile
+- `PATCH /api/company/edit-profile` – edit a company profile
 
 ---
 
@@ -150,7 +150,7 @@ Socket.IO Events
 - `GET /api/customer/service-posts-with-applicants` – Get service posts with applicants number
 - `GET /api/customer/service-posts-with-applicant-details` – Get service posts with applicant details
 - `DELETE /api/customer/service-posts/:postId` – Delete a specific service post
-- `PUT /api/customer/edit-profile` – Edit a customer profile
+- `PATCH /api/customer/edit-profile` – Edit a customer profile
 
 ---
 
