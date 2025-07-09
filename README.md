@@ -158,7 +158,7 @@ Socket.IO Events
 
 ## 📌 Bookmarks
 
-- `POST /api/bookmarks/` – Bookmark a job/service post (Auth: Developer)
+- `PATCH /api/bookmarks/` – Bookmark a job/service post (Auth: Developer)
 - `GET /api/bookmarks/` – Get all bookmarks (Auth: Developer)
 - `GET /api/bookmarks/?postType=job/service` – Get all bookmarks (Auth: Developer) (optional)
 - `GET /api/bookmarks/bookmark/:postId` – GET one bookmark (Auth: Developer)
