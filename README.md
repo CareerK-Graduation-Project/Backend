@@ -211,7 +211,7 @@ Socket.IO Events
 
 ### 📚 Course Bookmarks
 
-- ` POST /api/course-bookmarks/bookmark` – Bookmark/unbookmark a course (body: { courseId }) (Auth: Logged-in user)
+- ` PATCH /api/course-bookmarks/bookmark` – Bookmark/unbookmark a course (param: { courseId }) (Auth: Logged-in user)
 - ` GET /api/course-bookmarks/bookmarks` – Get all course bookmarked (Auth: Logged-in user)
 - ` GET /api/course-bookmarks/:courseId/is-bookmarked` – Check if course is bookmarked (Auth: Logged-in user)
 
