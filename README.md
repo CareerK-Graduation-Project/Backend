@@ -79,6 +79,8 @@
 - `POST /api/cv-generation/session` – Start session (form) (Auth: Developer)
 - `PUT /api/cv-generation/:sessionId/data` – Update data (form) (Auth: Developer) 
 - `PUT /api/cv-generation/:sessionId/data?replace=true` – to fully overwrite old data (Auth: Developer) 
+- `GET /api/cv-generation/session/:sessionId` – Get data of session (Auth: Developer) 
+- `GET /api/cv-generation/active-session` – Get last/active session ID (Auth: Developer) 
 - `POST /api/cv-generation/:sessionId/generate` – Generate CV (Auth: Developer)
 
 ---
