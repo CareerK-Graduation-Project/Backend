@@ -90,6 +90,7 @@ Chat Rooms
 - `POST /api/private-chats/start` – Start a private chat room with another user
 - `POST /api/private-chats/:chatRoomId` – Send a message in a private chat room (text or file)
 - `GET /api/private-chats/:chatRoomId` – Get messages from a specific private chat room
+- `GET /api/private-chats/:chatRoomId/receiver` – Get receiver info of a specific private chat room
 - `GET /api/private-chats` – Get all private chats for the logged-in user
 - `DELETE /api/private-chats/message/:messageId` – Delete a message
 - `DELETE /api/private-chats/:chatRoomId` – Delete a private chat room
