@@ -190,6 +190,7 @@ Socket.IO Events
 
 - `POST /api/course-enrollment/enroll/:courseId` – Enroll in a course (Auth: Logged-in user)
 - `POST /api/course-enrollment/lessons/complete` – Mark a lesson as complete (Auth: Logged-in user)
+- `GET /api/course-enrollment/skills` – Get skills of developer (Auth: Logged-in user)
 
 ---
 
